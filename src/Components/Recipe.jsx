@@ -22,10 +22,13 @@ export default function () {
          
         {recipes.map((recipes,index ) => (
           <ul>
-         
           <li>Name: {recipes.name}</li>
           <li className='in'>{recipes.ingredients}</li> 
-          
+          <li >{recipes.ingredients[0]}</li> 
+          <li >{recipes.ingredients[1]}</li>
+          <li >{recipes.ingredients[2]}</li>
+          <li >{recipes.ingredients[3]}</li>
+          <li >{recipes.ingredients[4]}</li>
           </ul>
 
         ))}
